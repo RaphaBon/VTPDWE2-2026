@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: rgb(181, 181, 250);
+    height: 50px; 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar a{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    font-size: large;
+}
+
+.navbar a:hover{
+    background-color: rgb(239, 239, 176);
+    transition: 0.5s;
+    text-decoration: underline;
+}

@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+    font-family: 'Roboto Mono';
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+/* Formulário */
+
+.form{
+    width: 30%;
+    margin: 30px;
+    background-color: gainsboro;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input, select{
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    font-size: 16px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-enviar{
+    background-color: #4CAF50;
+}
+
+.btn-enviar:hover{
+    background-color: #45a049;
+}
+
+.btn-limpar{
+    background-color: #f4b400;
+}
+
+.btn-limpar:hover{
+    background-color: #d9a000;
+}
+
+
+/* Table */
+
+table{
+    margin: 30px;
+    width: 60%;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 15px;
+}
+
+th{
+    background-color: #64cd69;
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+
+td{
+    padding: 7px;
+    border:  1px solid #ccc;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}

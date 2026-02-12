@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <h1>Formulário de cadastro e tabela com dados</h1>
+
+    <main class="container">
+    <div class="form">
+        <form action="cadastro" method="post">
+            <label for="name">Nome completo</label>
+            <input type="text" id="name" required> 
+            <label for="phone">Telefone</label>
+            <input type="tel" placeholder="(99)99999-0828" required>
+            <label for="e-mail">E-mail</label>
+            <input type="email" placeholder="seu@e-mail.com" required> 
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required>
+                    <option value="">Selecione</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+            </select>
+
+            <button type="submit" class="btn-enviar">Enviar</button>
+            <button type="reset" class="btn-limpar">Limpar</button>
+        </form>
+    </div>
+
+        <table>
+            <tr>
+                <th>Nome</th> 
+                <th>Telefone</th> 
+                <th>Email</th> 
+                <th>Estado</th>
+            </tr>
+
+            <tr>
+                <td>João Silva</td> 
+                <td>(17) 99123-4567</td> 
+                <td>joao.silva@email.com</td> 
+                <td>SP</td>
+            </tr>
+
+            <tr>
+                <td>Maria Oliveira</td> 
+                <td>(11) 98876-5432</td> 
+                <td>maria.oliveira@email.com</td> 
+                <td>MG</td>
+            </tr>
+
+            <tr>
+                <td>Carlos Souza</td> 
+                <td>(21) 99765-4321</td> 
+                <td>carlos.souza@email.com</td> 
+                <td>RJ</td>
+            </tr>
+
+            <tr>
+                <td>Larissa Neves</td> 
+                <td>(61) 99970-9350</td> 
+                <td>snlarrisa@email.com</td> 
+                <td>DF</td>
+            </tr>
+        </table>
+
+
+    </main>
+  
+    <script src="script.js"></script>
+</body>
+</html>

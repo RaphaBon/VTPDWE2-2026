@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+img{
+    width: 45vh;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+
+.post{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.conteudo{
+    flex: 1;
+}
+
+.ul{
+    list-style: none;
+}
+
+.li{
+    margin-bottom: 15px;
+}
