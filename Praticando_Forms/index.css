@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    background-color: #000000; 
+}
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    width: 40%;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(225, 222, 222);
+    border-radius: 8px;
+}
+
+.container label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+.container input, select{
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container .send{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgb(47, 127, 255);
+    color: rgb(0, 0, 0);
+}
+
+.container .clean{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(255, 120, 47);
+    color: rgb(0, 0, 0);
+}
